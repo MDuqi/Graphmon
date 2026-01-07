@@ -24,9 +24,4 @@ for node in G.nodes:
 
 conn.close()
 
-#draw graph
-nx.draw(G, with_labels=True)
-plt.show()
 
-#print(G.nodes)
-#print(G.edges)
