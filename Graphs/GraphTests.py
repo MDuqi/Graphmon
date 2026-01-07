@@ -9,7 +9,7 @@ else:
     print("It's NOT possible to reach any Digimon from any other Digimon.")
 
 plt.figure(figsize=(12, 8))
-pos = nx.spring_layout(G, seed=42)  # positions for all nodes
+pos = nx.multipartite_layout(G, subset_key="layer")   # positions for all nodes
 nx.draw(G, pos, with_labels=True, node_size=500, node_color="lightblue", font_size=10, font_weight="bold", edge_color="gray")
 plt.title("Digimon Evolution Graph")
 plt.show()
