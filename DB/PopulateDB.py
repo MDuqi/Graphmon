@@ -54,10 +54,11 @@ if __name__ == '__main__':
     # Create database and table if they don't exist
     conn = connect_db()
     cur = create_cursor(conn)
-    empty_tables(cur)
+    
     create_digimon_table(cur)
     create_evolution_table(cur)
-
+    empty_tables(cur)  # Clear existing data in tables
+    
     # Add a single Digimon
     #add_digimon(cur, 1, None, 'Agumon', 'Rookie', 'Vaccine')  
 
