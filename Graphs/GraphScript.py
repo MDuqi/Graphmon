@@ -9,11 +9,12 @@ Nums = []
 conn = sqlite3.connect('DB/Digimon.db')
 cursor = conn.cursor()
 
-Nums = cursor.execute("SELECT number FROM digimon")
+Nums = cursor.execute("SELECT Number, StageLevel FROM digimon")
 
 #add nodes to graph based on digimon numbers
 for Num in Nums:
-    G.add_node(Num[0])
+    G.add_node(Num[0], layer=Num[1])
+
 
 for node in G.nodes:
     from_number = node
