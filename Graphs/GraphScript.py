@@ -1,6 +1,5 @@
 import sqlite3
 import networkx as nx
-import matplotlib.pyplot as plt
 
 #create graph
 G = nx.Graph()
