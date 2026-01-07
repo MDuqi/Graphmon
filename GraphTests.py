@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import networkx as nx
 
 
-if print(nx.is_connected(G)):  # Check if the graph is strongly connected
+if nx.is_connected(G):  # Check if the graph is strongly connected
     print("It's possible to reach any Digimon from any other Digimon.")
 else:
     print("It's NOT possible to reach any Digimon from any other Digimon.")
