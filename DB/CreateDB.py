@@ -18,6 +18,7 @@ def create_digimon_table(cursor):
         Image IMAGE NULL,
         Name TEXT NOT NULL,
         Stage TEXT NOT NULL,
+        StageLevel INTEGER NOT NULL,
         Attribute TEXT NOT NULL
     )''')
 
@@ -35,10 +36,25 @@ def empty_tables(cursor):
     cursor.execute('DELETE FROM digimon')
     cursor.execute('DELETE FROM evolution')
 
+def delete_tables(cursor):
+    cursor.execute('DROP TABLE IF EXISTS evolution')
+    cursor.execute('DROP TABLE IF EXISTS digimon')
+
 if __name__ == '__main__':
     conn = connect_db()
     cur = create_cursor(conn)
+    
+    # Check if digimon table exists
+    table_names = cur.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='digimon'")
+    print(table_names)
+    if table_names.fetchone() is not None:
+        print("Tables already exist. Deleting tables...")
+        delete_tables(cur)
+
+    print("Creating tables...")
     create_digimon_table(cur)
     create_evolution_table(cur)
+      
     conn.commit()
+    conn.close()
 
