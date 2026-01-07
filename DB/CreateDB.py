@@ -31,6 +31,9 @@ def create_evolution_table(cursor):
         PRIMARY KEY (FromNumber, ToNumber)
     )''')
 
+def empty_tables(cursor):
+    cursor.execute('DELETE FROM digimon')
+    cursor.execute('DELETE FROM evolution')
 
 if __name__ == '__main__':
     conn = connect_db()

@@ -1,4 +1,4 @@
-from CreateDB import connect_db, create_cursor, create_digimon_table, create_evolution_table
+from CreateDB import connect_db, create_cursor, create_digimon_table, create_evolution_table, empty_tables
 import csv
 
 def find_digimon_number_by_name(cur, name):
@@ -42,7 +42,7 @@ def add_all_evolutions(cur):
         next(reader)  # Skip header row if present
         for row in reader:
             from_number = int(row[0])
-            evolutions = row[5:10]
+            evolutions = row[5:11]
             for evo in evolutions:
                 if evo != '':
                     to_number = find_digimon_number_by_name(cur, evo)
@@ -54,6 +54,7 @@ if __name__ == '__main__':
     # Create database and table if they don't exist
     conn = connect_db()
     cur = create_cursor(conn)
+    empty_tables(cur)
     create_digimon_table(cur)
     create_evolution_table(cur)
 
