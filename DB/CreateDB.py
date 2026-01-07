@@ -11,7 +11,7 @@ def create_cursor(connection):
     return cursor
 
 # Create a table
-def create_table(cursor):
+def create_digimon_table(cursor):
     cursor.execute('''
     CREATE TABLE IF NOT EXISTS digimon (
         Number INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -21,9 +21,21 @@ def create_table(cursor):
         Attribute TEXT NOT NULL
     )''')
 
+def create_evolution_table(cursor):
+    cursor.execute('''
+    CREATE TABLE IF NOT EXISTS evolution (
+        FromNumber INTEGER,
+        ToNumber INTEGER,
+        FOREIGN KEY (FromNumber) REFERENCES digimon(Number),
+        FOREIGN KEY (ToNumber) REFERENCES digimon(Number),
+        PRIMARY KEY (FromNumber, ToNumber)
+    )''')
+
+
 if __name__ == '__main__':
     conn = connect_db()
     cur = create_cursor(conn)
-    create_table(cur)
+    create_digimon_table(cur)
+    create_evolution_table(cur)
     conn.commit()
 

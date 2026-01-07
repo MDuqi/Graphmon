@@ -16,4 +16,4 @@ for Num in Nums:
     G.add_node(Num[0])
 
 conn.close()
-print(G.nodes)
+#print(G.nodes)
