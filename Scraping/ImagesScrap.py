@@ -49,9 +49,9 @@ def download_digimon_images():
             f.write(img_data)
 
         count += 1
-        print(f"Baixado {count}: {filename}")
+        print(f"Downloading {count}: {filename}")
 
-    print(f"\nTotal: {count} imagens")
+    print(f"\nTotal: {count} images")
 
 if __name__ == "__main__":
     download_digimon_images()
