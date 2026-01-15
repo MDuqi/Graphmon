@@ -32,7 +32,7 @@ def download_digimon_images():
 
             img_url = urljoin(url, src)
            
-            if '/icons/' in img_url and img_url.endswith('mon-icon.png'):
+            if '/icons/' in img_url and 'mon' in img_url:
                 file_name = img_url.split('/')[-1]
                 name = file_name.replace('-icon.png', '.png')
 
