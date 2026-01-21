@@ -19,7 +19,14 @@ def create_digimon_table(cursor):
         Name TEXT NOT NULL,
         Stage TEXT NOT NULL,
         StageLevel INTEGER NOT NULL,
-        Attribute TEXT NOT NULL
+        Attribute TEXT NOT NULL,
+        HP INTEGER NOT NULL,
+        SP INTEGER NOT NULL,
+        ATK INTEGER NOT NULL,
+        DEF INTEGER NOT NULL,
+        INT INTEGER NOT NULL,
+        SPI INTEGER NOT NULL,
+        SPD INTEGER NOT NULL
     )''')
 
 def create_evolution_table(cursor):
@@ -27,6 +34,7 @@ def create_evolution_table(cursor):
     CREATE TABLE IF NOT EXISTS evolution (
         FromNumber INTEGER,
         ToNumber INTEGER,
+        EvoCost INTEGER NOT NULL,
         FOREIGN KEY (FromNumber) REFERENCES digimon(Number),
         FOREIGN KEY (ToNumber) REFERENCES digimon(Number),
         PRIMARY KEY (FromNumber, ToNumber)

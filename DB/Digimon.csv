@@ -2,22 +2,22 @@ Number,Image,Name,Stage,Attribute,Evolutions,,,,,
 1,,Kuramon,In-Training I,None,Pagumon,Tsumemon,,,,
 2,,Choromon,In-Training I,None,Caprimon,,,,,
 3,,Dodomon,In-Training I,None,Wanyamon,Dorimon,,,,
-4,,Bubbmon,In-Training I,None,Mochimon,Pyocomon,Tanemon,,,
+4,,Pabumon,In-Training I,None,Mochimon,Pyocomon,Tanemon,,,
 5,,Punimon,In-Training I,None,Tunomon,Nyaromon,,,,
 6,,Botamon,In-Training I,None,Koromon,,,,,
 7,,Poyomon,In-Training I,None,Pukamon,Tokomon,,,,
-8,,Caprimon,In-Training II,None,Hagurumon,Kokuwamon,Toy Agumon,Solarmon,,
+8,,Kapurimon,In-Training II,None,Hagurumon,Kokuwamon,Toy Agumon,Solarmon,,
 9,,Koromon,In-Training II,None,Agumon,Guilmon,Dracomon,Kotemon,Betamon,Shoutmon
 10,,Tanemon,In-Training II,None,Funbeemon,Lalamon,Palmon,Mushmon,Floramon,
-11,,Tunomon,In-Training II,None,Goburimon,V-Mon,Gabumon,Ryudamon,Elecmon,Zubamon
+11,,Tsunomon,In-Training II,None,Goburimon,V-Mon,Gabumon,Ryudamon,Elecmon,Zubamon
 12,,Tsumemon,In-Training II,None,Dracumon,Shamamon,Keramon,,,
 13,,Tokomon,In-Training II,None,Patamon,Coronamon,Terriermon,Armadimon,Lucemon,
 14,,Dorimon,In-Training II,None,Dorumon,Monodramon,Snow Goburimon,Lopmon,,
 15,,Nyaromon,In-Training II,None,Lunamon,Kudamon,Plotmon,Hackmon,,
 16,,Pagumon,In-Training II,None,Impmon,Pico Devimon,Gazimon,Otamamon,,
-17,,Pyocomon,In-Training II,None,Piyomon,Penmon,Falcomon,Hawkmon,Hyokomon,Muchomon
-18,,Pukamon,In-Training II,None,Kamemon,Ganimon,Gomamon,Gizamon,Shakomon,
-19,,Mochimon,In-Training II,None,Tyumon,Tentomon,Wormmon,Gottsumon,,
+17,,Yokomon,In-Training II,None,Piyomon,Penmon,Falcomon,Hawkmon,Hyokomon,Muchomon
+18,,Bukamon,In-Training II,None,Kamemon,Ganimon,Gomamon,Gizamon,Shakomon,
+19,,Motimon,In-Training II,None,Tyumon,Tentomon,Wormmon,Gottsumon,,
 20,,Wanyamon,In-Training II,None,Gaomon,Bakumon,Bearmon,Renamon,,
 21,,Agumon,Rookie,Vaccine,Raptordramon,Geo Greymon,Numemon,Greymon,Coredramon (Green),Agumon -Yuki No Kizuna-
 22,,Kudamon,Rookie,Vaccine,Airdramon,Reppamon,Angemon,Ginryumon,Wolfmon,Sorcerimon
@@ -27,12 +27,12 @@ Number,Image,Name,Stage,Attribute,Evolutions,,,,,
 26,,Solarmon,Rookie,Vaccine,Starmon,Gold Numemon,Meramon,Guardromon (Gold),,
 27,,Terriermon,Rookie,Vaccine,Mojyamon,Lekismon,Gawappamon,Gargomon,Rapidmon Armor,
 28,,Tentomon,Rookie,Vaccine,Kabuterimon,Sunflowmon,Kuwagamon,Waspmon,Snimon,
-29,,Toy Agumon,Rookie,Vaccine,Blimpmon,Revolmon,Raremon,Tankmon,Gargomon,
-30,,Bakumon,Rookie,Vaccine,Meramon,Garurumon,Bakemon,Unimon,Kyubimon,
+29,,ToyAgumon,Rookie,Vaccine,Blimpmon,Revolmon,Raremon,Tankmon,Gargomon,
+30,,Tapirmon,Rookie,Vaccine,Meramon,Garurumon,Bakemon,Unimon,Kyubimon,
 31,,Hyokomon,Rookie,Vaccine,Peckmon,Birdramon,Dinohumon,Buraimon,,
-32,,Piyomon,Rookie,Vaccine,Aquilamon,Birdramon,Unimon,Wizarmon,,
+32,,Biyomon,Rookie,Vaccine,Aquilamon,Birdramon,Unimon,Wizarmon,,
 33,,Falcomon,Rookie,Vaccine,Peckmon,Ginryumon,Kiwimon,,,
-34,,Plotmon,Rookie,Vaccine,Tailmon,Sangloupmon,Dobermon,Ikkakumon,V-Dramon,Drimogemon
+34,,Salamon,Rookie,Vaccine,Tailmon,Sangloupmon,Dobermon,Ikkakumon,V-Dramon,Drimogemon
 35,,Bearmon,Rookie,Vaccine,Gryzmon,Gaogamon,Mojyamon,Leomon,,
 36,,Penmon,Rookie,Vaccine,Peckmon,Buraimon,Kiwimon,Aquilamon,,
 37,,Monodramon,Rookie,Vaccine,Strikedramon,Raptordramon,Deltamon,Chrysalimon,Cyclomon,
@@ -40,17 +40,17 @@ Number,Image,Name,Stage,Attribute,Evolutions,,,,,
 39,,Lucemon,Rookie,Vaccine,Lucemon: Falldown Mode,,,,,
 40,,Elecmon,Rookie,Data,Aegiomon,Seadramon,Unimon,Kuwagamon,Gekomon,
 41,,Gaomon,Rookie,Data,Strikedramon,Gaogamon,Leomon,Nanimon,Turuiemon,
-42,,Ganimon,Rookie,Data,Gawappamon,Octmon,Shellmon,Raremon,Snimon,Coelamon
+42,,Crabmon,Rookie,Data,Gawappamon,Octmon,Shellmon,Raremon,Snimon,Coelamon
 43,,Gabumon,Rookie,Data,Garurumon,Ikkakumon,Drimogemon,Kyubimon,Geremon,Gabumon -Yujo No Kizuna-
 44,,Kamemon,Rookie,Data,Gawappamon,Octmon,Shellmon,Karatuki Numemon,Dinohumon,Sorcerimon
 45,,Kokuwamon,Rookie,Data,Centalmon,Kuwagamon,Clockmon,Waspmon,Mechanorimon,
-46,,Gottsumon,Rookie,Data,Starmon,Guardromon,Golemon,Monochromon,Icemon,Tuchidarumon
+46,,Gotsumon,Rookie,Data,Starmon,Guardromon,Golemon,Monochromon,Icemon,Tuchidarumon
 47,,Kotemon,Rookie,Data,Turuiemon,Musyamon,Revolmon,Dinohumon,Coredramon (Blue),
 48,,Shoutmon,Rookie,Data,Omega Shoutmon,Zubaeagermon,Gargomon,Guardromon (Gold),,
 49,,Dracomon,Rookie,Data,Coredramon (Green),Coredramon (Blue),Deltamon,V-Dramon,Seadramon,Tyranomon
 50,,Dorumon,Rookie,Data,Raptordramon,Airdramon,Sangloupmon,Xv-Mon,Drimogemon,Dorugamon
 51,,Patamon,Rookie,Data,Angemon,Pegasmon,Unimon,Centalmon,,
-52,,Hackmon,Rookie,Data,Tailmon,Geo Greymon,Growmon,Bao Hackmon,Greymon,
+52,,Huckmon,Rookie,Data,Tailmon,Geo Greymon,Growmon,Bao Hackmon,Greymon,
 53,,Palmon,Rookie,Data,Mojyamon,Vegimon,Togemon,Woodmon,Chrysalimon,Platinum Scumon
 54,,Floramon,Rookie,Data,Vegimon,Togemon,Woodmon,Sunflowmon,Kiwimon,
 55,,Muchomon,Rookie,Data,Airdramon,Peckmon,Birdramon,Fugamon,,
@@ -63,19 +63,19 @@ Number,Image,Name,Stage,Attribute,Evolutions,,,,,
 62,,Gazimon,Rookie,Virus,Sangloupmon,Black Tailmon,Gaogamon,Bao Hackmon,Dobermon,Dorugamon
 63,,Gizamon,Rookie,Virus,Cyclomon,Flymon,Zubaeagermon,Ankylomon,Geremon,Ranamon
 64,,Guilmon,Rookie,Virus,Geo Greymon,Growmon,Xv-Mon,Tyranomon,,
-65,,Goburimon,Rookie,Virus,Golemon,Wendimon,Deltamon,Tuskmon,Orgemon,
+65,,Goblimon,Rookie,Virus,Golemon,Wendimon,Deltamon,Tuskmon,Orgemon,
 66,,Shamamon,Rookie,Virus,Minotaurmon,Musyamon,Fugamon,Witchmon,,
-67,,Shakomon,Rookie,Virus,Coelamon,Shellmon,Karatuki Numemon,Octmon,Raremon,
-68,,Snow Goburimon,Rookie,Virus,Tailmon,Monochromon,Yukidarumon,Hyougamon,Ice Devimon,Icemon
-69,,Tyumon,Rookie,Virus,Black Tailmon,Scumon,Tailmon,Gekomon,Geremon,Platinum Scumon
-70,,Dracumon,Rookie,Virus,Sangloupmon,Scumon,Wizarmon,Starmon,,
+67,,Syakomon,Rookie,Virus,Coelamon,Shellmon,Karatuki Numemon,Octmon,Raremon,
+68,,SnowGoblimon,Rookie,Virus,Tailmon,Monochromon,Yukidarumon,Hyougamon,Ice Devimon,Icemon
+69,,Chuumon,Rookie,Virus,Black Tailmon,Scumon,Tailmon,Gekomon,Geremon,Platinum Scumon
+70,,Dracmon,Rookie,Virus,Sangloupmon,Scumon,Wizarmon,Starmon,,
 71,,Hagurumon,Rookie,Virus,Clockmon,Mechanorimon,Tankmon,Guardromon,Blimpmon,
-72,,Pico Devimon,Rookie,Virus,Bakemon,Ice Devimon,Devimon,Orgemon,,
+72,,DemiDevimon,Rookie,Virus,Bakemon,Ice Devimon,Devimon,Orgemon,,
 73,,Funbeemon,Rookie,Virus,Waspmon,Flymon,Dokugumon,Stingmon,Gold Numemon,Kabuterimon
 74,,Betamon,Rookie,Virus,Seadramon,Coelamon,Devimon,Numemon,Vegimon,Tuskmon
-75,,Mushmon,Rookie,Virus,Scumon,Nanimon,Woodmon,Flymon,,
-76,,Armadimon,Rookie,Free,Digmon,Submarimon,Golemon,Ankylomon,,
-77,,V-Mon,Rookie,Free,Xv-Mon,V-Dramon,Lighdramon,Magnamon,Fladramon,
+75,,Mushroomon,Rookie,Virus,Scumon,Nanimon,Woodmon,Flymon,,
+76,,Armadillomon,Rookie,Free,Digmon,Submarimon,Golemon,Ankylomon,,
+77,,VeeMon,Rookie,Free,Xv-Mon,V-Dramon,Lighdramon,Magnamon,Fladramon,
 78,,Hawkmon,Rookie,Free,Firamon,Holsmon,Shurimon,Aquilamon,,
 79,,Wormmon,Rookie,Free,Stingmon,Dokugumon,Snimon,,,
 80,,Keramon,Rookie,Unknown,Dokugumon,Wendimon,Octmon,Mechanorimon,Chrysalimon,
@@ -87,26 +87,26 @@ Number,Image,Name,Stage,Attribute,Evolutions,,,,,
 86,,Gargomon,Champion,Vaccine,Catch Mamemon,Mach Gaogamon,Rapidmon Perfect,,,
 87,,Garurumon,Champion,Vaccine,Were Garurumon,Blue Meramon,Taomon,Chimairamon,,
 88,,Ginryumon,Champion,Vaccine,Hisyaryumon,Skull Greymon,Butenmon,,,
-89,,Gryzmon,Champion,Vaccine,Were Garurumon,Grappu Leomon,Great Gryzmon,,,
+89,,Gryzzlymon,Champion,Vaccine,Were Garurumon,Grappu Leomon,Great Gryzmon,,,
 90,,Greymon,Champion,Vaccine,Metal Greymon,Megadramon,Skull Greymon,Chimairamon,,
 91,,Coredramon (Blue),Champion,Vaccine,Wingdramon,Aero V-Dramon,Gigadramon,,,
-92,,Geo Greymon,Champion,Vaccine,Rize Greymon,Metal Tyranomon,Cyberdramon,,,
+92,,GeoGreymon,Champion,Vaccine,Rize Greymon,Metal Tyranomon,Cyberdramon,,,
 93,,Strikedramon,Champion,Vaccine,Cyberdramon,Savior Hackmon,Locomon,,,
 94,,Snimon,Champion,Vaccine,Okuwamon,Fantomon,Archnemon,Jewelbeemon,,
-95,,Zubaeagermon,Champion,Vaccine,Grademon,Megalo Growmon,Duramon,Knightmon,,
-96,,Sorcerimon,Champion,Vaccine,Holy Angemon,Piccolomon,Wisemon,,,
-97,,Tailmon,Champion,Vaccine,Nefertimon,Angewomon,Silphymon,,,
+95,,ZubaEagermon,Champion,Vaccine,Grademon,Megalo Growmon,Duramon,Knightmon,,
+96,,Sorcermon,Champion,Vaccine,Holy Angemon,Piccolomon,Wisemon,,,
+97,,Gatomon,Champion,Vaccine,Nefertimon,Angewomon,Silphymon,,,
 98,,Dobermon,Champion,Vaccine,Matadrmon,Dark Super Starmon,Cerberumon,Mummymon,,
 99,,Birdramon,Champion,Vaccine,Flaremon,Garudamon,Death Meramon,Parrotmon,,
 100,,Firamon,Champion,Vaccine,Flaremon,Savior Hackmon,Mistymon,,,
-101,,V-Dramon,Champion,Vaccine,Wingdramon,Aero V-Dramon,Cyberdramon,,,
+101,,VeeDramon,Champion,Vaccine,Wingdramon,Aero V-Dramon,Cyberdramon,,,
 102,,Buraimon,Champion,Vaccine,Butenmon,Duramon,Garudamon,,,
 103,,Peckmon,Champion,Vaccine,Tyilinmon,Vamdemon,Yatagaramon,,,
 104,,Mojyamon,Champion,Vaccine,Zudomon,Piccolomon,Mistymon,Mammon,,
-105,,Yukidarumon,Champion,Vaccine,Crescemon,Angewomon,Panjyamon,Insekimon,Mammon,
+105,,Frigimon,Champion,Vaccine,Crescemon,Angewomon,Panjyamon,Insekimon,Mammon,
 106,,Unimon,Champion,Vaccine,Hippogriffomon,Holy Angemon,Tyilinmon,,,
 107,,Raptordramon,Champion,Vaccine,Grademon,Gigadramon,Tankdramon,,,
-108,,Revolmon,Champion,Vaccine,Pandamon,Super Starmon,Wisemon,,,
+108,,Deputymon,Champion,Vaccine,Pandamon,Super Starmon,Wisemon,,,
 109,,Leomon,Champion,Vaccine,Flaremon,Grappu Leomon,Panjyamon,Loader Leomon,,
 110,,Reppamon,Champion,Vaccine,Tyilinmon,Mega Seadramon,Angewomon,Doruguremon,,
 111,,Icemon,Champion,Data,Crescemon,Insekimon,Panjyamon,,,

@@ -29,15 +29,15 @@ def get_stage_level(stage):
 
 def add_digimon(cur,number, image, name, stage, stage_level, attribute):
     cur.execute('''
-    INSERT INTO digimon (Number, Image, Name, Stage, StageLevel, Attribute)
-    VALUES (?, ?, ?, ?, ?, ?)
+    INSERT INTO digimon (Number, Image, Name, Stage, StageLevel, Attribute, HP, SP, ATK, DEF, INT, SPI, SPD)
+    VALUES (?, ?, ?, ?, ?, ?, 0, 0, 0, 0, 0, 0, 0)
     ''', (number, image, name, stage, stage_level, attribute))
-    
+
 
 def add_evolution(cur, from_number, to_number):
     cur.execute('''
-    INSERT INTO evolution (FromNumber, ToNumber)
-    VALUES (?, ?)
+    INSERT INTO evolution (FromNumber, ToNumber, EvoCost)
+    VALUES (?, ?, 0)
     ''', (from_number, to_number))
 
 
