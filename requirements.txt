@@ -2,3 +2,5 @@ networkx[default]
 requests
 beautifulsoup4
 selenium
+
+flask 
